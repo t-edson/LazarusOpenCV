@@ -1,0 +1,22 @@
+object Form1: TForm1
+  Left = 254
+  Height = 489
+  Top = 133
+  Width = 608
+  Caption = 'Lazarus - Face Detection (OpenCV)'
+  ClientHeight = 489
+  ClientWidth = 608
+  Color = clWhite
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '1.8.0.6'
+  object Image2: TImage
+    Left = 8
+    Height = 456
+    Top = 16
+    Width = 585
+    Center = True
+    Proportional = True
+    Stretch = True
+  end
+end

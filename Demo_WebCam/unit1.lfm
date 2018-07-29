@@ -1,0 +1,118 @@
+object Form1: TForm1
+  Left = 254
+  Height = 680
+  Top = 133
+  Width = 757
+  Caption = 'Lazarus - Face Detection (OpenCV)'
+  ClientHeight = 680
+  ClientWidth = 757
+  Color = clWhite
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '1.8.0.6'
+  object Label1: TLabel
+    Left = 13
+    Height = 15
+    Top = 8
+    Width = 59
+    Caption = 'Frame Rate'
+    ParentColor = False
+  end
+  object FrameRate: TFloatSpinEdit
+    Left = 13
+    Height = 23
+    Top = 40
+    Width = 109
+    Increment = 1
+    MaxValue = 25
+    MinValue = 0
+    OnChange = FrameRateChange
+    TabOrder = 0
+    Value = 10
+  end
+  object ComboBox1: TComboBox
+    Left = 152
+    Height = 23
+    Top = 40
+    Width = 290
+    ItemHeight = 15
+    OnChange = ComboBox1Change
+    TabOrder = 1
+    Text = 'ComboBox1'
+  end
+  object Label3: TLabel
+    Left = 24
+    Height = 15
+    Top = 168
+    Width = 124
+    Caption = 'OpenCV Detect Objects'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 152
+    Height = 15
+    Top = 8
+    Width = 72
+    Caption = 'First Classifier'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 455
+    Height = 15
+    Top = 8
+    Width = 89
+    Caption = 'Second Classifier'
+    ParentColor = False
+  end
+  object ComboBox2: TComboBox
+    Tag = 1
+    Left = 455
+    Height = 23
+    Top = 40
+    Width = 290
+    ItemHeight = 15
+    OnChange = ComboBox1Change
+    OnClick = ComboBox1Change
+    TabOrder = 2
+    Text = 'ComboBox2'
+  end
+  object Image2: TImage
+    Left = 24
+    Height = 456
+    Top = 200
+    Width = 585
+    Center = True
+    Proportional = True
+    Stretch = True
+  end
+  object Button1: TButton
+    Left = 14
+    Height = 38
+    Top = 97
+    Width = 106
+    Caption = 'Picture'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 152
+    Height = 38
+    Top = 96
+    Width = 106
+    Caption = 'Start Cam'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = Timer1Timer
+    left = 344
+    top = 96
+  end
+  object OpenDialog1: TOpenDialog
+    Filter = 'BMP, JPG, PNG|*.bmp;*.jpg;*.png'
+    left = 424
+    top = 96
+  end
+end
