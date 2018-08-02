@@ -1,0 +1,42 @@
+object Form1: TForm1
+  Left = 254
+  Height = 416
+  Top = 133
+  Width = 772
+  Caption = 'Lazarus - Face Detection (OpenCV)'
+  ClientHeight = 416
+  ClientWidth = 772
+  Color = clWhite
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '1.8.4.0'
+  object pb1: TPaintBox
+    Left = 16
+    Height = 336
+    Top = 24
+    Width = 366
+  end
+  object pb2: TPaintBox
+    Left = 394
+    Height = 336
+    Top = 24
+    Width = 366
+  end
+  object rb1: TRadioButton
+    Left = 16
+    Height = 24
+    Top = 376
+    Width = 218
+    Caption = 'Detect and Track Red Object'
+    Checked = True
+    TabOrder = 0
+  end
+  object rb2: TRadioButton
+    Left = 246
+    Height = 24
+    Top = 376
+    Width = 157
+    Caption = 'Detect Red Objects'
+    TabOrder = 1
+  end
+end
