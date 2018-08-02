@@ -8,13 +8,15 @@
       <Unit0>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
+        <UnitName Value="MotionDetect"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="12" Y="3"/>
+        <TopLine Value="80"/>
+        <CursorPos Y="92"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
     </Units>
-    <JumpHistory Count="13" HistoryIndex="12">
+    <JumpHistory Count="15" HistoryIndex="14">
       <Position1>
         <Filename Value="project1.lpr"/>
         <Caret Line="5"/>
@@ -66,6 +68,14 @@
         <Filename Value="project1.lpr"/>
         <Caret Line="125" Column="23" TopLine="97"/>
       </Position13>
+      <Position14>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="9" Column="19"/>
+      </Position14>
+      <Position15>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="91" TopLine="80"/>
+      </Position15>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

@@ -26,11 +26,16 @@
         <FormatVersion Value="1"/>
       </local>
     </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
     <Units Count="1">
       <Unit0>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="MotionDetect"/>
+        <UnitName Value="ObjectTrack"/>
       </Unit0>
     </Units>
   </ProjectOptions>
