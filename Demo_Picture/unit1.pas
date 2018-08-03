@@ -11,7 +11,7 @@ uses
   StdCtrls
   , ocv.highgui_c
   , ocv.core.types_c
-  , LazOpenCV
+  , ocv.utils
   ;
 
 type

@@ -13,7 +13,7 @@ uses
   , ocv.core_c
   , ocv.core.types_c
   , ocv.objdetect_c
-  , LazOpenCV
+  , ocv.utils
   ;
 
 type
